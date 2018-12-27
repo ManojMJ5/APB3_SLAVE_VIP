@@ -1,7 +1,7 @@
 module apb_assertions(
 	input		clk,
 	input 		rst_n,
-	input [7:0] 	paddr,
+	input [31:0] 	paddr,
 	input 	        pwrite,
 	input 		psel,
 	input 		penable,
